@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #7b5cff, #b49cff);
+  height: 300px;
+}
+
+/* MISSION */
+.mission {
+  background-color: #7b5cff;
+}
+
+/* BUTTON CUSTOM */
+.btn-primary {
+  background-color: #5a3ec8;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3f2ca0;
+}
+
+/* CARDS */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f5f5f5;
+}
+body {
+  font-family: 'Georgia', serif;
+}
+
+/* SECTION COLORS */
+.purple-dark {
+  background-color: #7b6fd6;
+  padding: 60px 0;
+}
+
+.purple-light {
+  background-color: #9a95e6;
+  padding: 60px 0;
+}
+
+/* TEXT */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.project-text {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+/* IMAGES */
+.project-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .project-text {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .project-img {
+    width: 100px;
+    height: 100px;
+  }
+}
